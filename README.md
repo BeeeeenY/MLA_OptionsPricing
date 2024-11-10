@@ -4,7 +4,7 @@
 This project analyses and predicts options market data using a range of machine learning and deep learning models. By leveraging historical options data, the project explores patterns through exploratory data analysis (EDA) and implements multiple models for prediction, including the Black-Scholes-Merton (BSM) model, Support Vector Regression (SVR), Artificial Neural Networks (ANN) and Long Short-Term Memory (LSTM) networks.
 
 ## Project Structure
-The project files and directories are organized as follows:
+The project files and directories are organised as follows:
 
 
 ``` bash
@@ -36,13 +36,13 @@ The project files and directories are organized as follows:
 1. **Data**: The `data` folder contains six CSV files with historical options data, including fields like option types (calls and puts), strike prices, expiration dates, volatility, and open interest. These files are used across notebooks for training and evaluation.
 
 2. **Notebooks**:
-   - **EDA.ipynb**: Performs Exploratory Data Analysis (EDA) to visualize trends and summarize the dataset, including:
+   - **EDA.ipynb**: Performs Exploratory Data Analysis (EDA) to visualise trends and summarise the dataset, including:
      - Data cleaning and preprocessing
      - Analysis of call and put volumes
-     - Visualizations of volatility, open interest, and other key features
+     - Visualisations of volatility, open interest, and other key features
        
    - **ANN_Model.ipynb**: Implements an Artificial Neural Network (ANN) for prediction, This notebook includes:
-     - Data preprocessing and normalization
+     - Data preprocessing and normalisation
      - Hyperparameter tuning for SVR
      - Model architecture and training
      - Model evaluation metrics
@@ -51,7 +51,7 @@ The project files and directories are organized as follows:
      - Data scaling
      - Model training and evaluation metrics
        
-   - **BSM_Model.ipynb**: Implements the Black-Scholes-Merton (BSM) model for option pricing. This notebook includes:
+   - **BSM_Model.ipynb**: Implements the Black-Scholes Model (BSM) for option pricing. This notebook includes:
      - Calculation of option prices using the BSM formula
        
    - **LSTM_Model.ipynb**: Employs a Long Short-Term Memory (LSTM) neural network for time series prediction. This notebook includes:
