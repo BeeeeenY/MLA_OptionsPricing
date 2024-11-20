@@ -33,7 +33,7 @@ The project files and directories are organised as follows:
 ```
 
 ## Contents
-1. **Data**: The `data` folder contains six CSV files with historical options data, including fields like option types (calls and puts), strike prices, expiration dates, volatility, and open interest. These files are used across notebooks for training and evaluation. < br / >Daily treasury rates csv are obtained from the US department of treasury to calculate risk free rates. df1 - df6 modified are csv files added with the new features obtained from feature extraction.
+1. **Data**: The `data` folder contains six CSV files with historical options data, including fields like option types (calls and puts), strike prices, expiration dates, volatility, and open interest. These files are used across notebooks for training and evaluation. <br>Daily treasury rates csv are obtained from the US department of treasury to calculate risk free rates. df1 - df6 modified are csv files added with the new features obtained from feature extraction.
 
 2. **Notebooks**:
    - **EDA.ipynb**: Performs Exploratory Data Analysis (EDA) to visualise trends and summarise the dataset, including:
