@@ -33,14 +33,17 @@ The project files and directories are organised as follows:
 ```
 
 ## Contents
-1. **Data**: The `data` folder contains six CSV files with historical options data, including fields like option types (calls and puts), strike prices, expiration dates, volatility, and open interest. These files are used across notebooks for training and evaluation. <br>Daily treasury rates csv are obtained from the US department of treasury to calculate risk free rates. df1 - df6 modified are csv files added with the new features obtained from feature extraction.
+1. **Data**: The `data` folder contains six CSV files with historical options data, including fields like option types (calls and puts), strike prices, expiration dates, volatility, and open interest. These files are used across notebooks for training and evaluation. <br>**daily-treasury-rates.csv** contain treasury rates obtained US department of treasury to calculate risk free rates. <br>**df1 - df6 modified.csv** are csv files added with the new features obtained from feature extraction. <br>**df_concat_withBSMprice.csv** Added the predicted option price using Black Scholes Model into the dataset.
 
 2. **Notebooks**:
-   - **EDA.ipynb**: Performs Exploratory Data Analysis (EDA) to visualise trends and summarise the dataset, including:
+   In `EDA` folder:
+   - **spx_eda.ipynb**: Performs Exploratory Data Analysis (EDA) to visualise trends and summarise the dataset, including:
      - Data cleaning and preprocessing
      - Analysis of call and put volumes
      - Visualisations of volatility, open interest, and other key features
-       
+   - **spx_count.ipynb**: Used to obtain shape of all 6 datasets
+     
+  **Models**
    - **rf_rate_maturity_option_price.ipynb**: Performs feature extraction for:
      - Risk free rates
      - Maturity which then leads to Time to Maturity
@@ -48,12 +51,13 @@ The project files and directories are organised as follows:
        
    - **ANN_Model.ipynb**: Implements an Artificial Neural Network (ANN) for prediction, This notebook includes:
      - Data preprocessing and normalisation
-     - Hyperparameter tuning for SVR
+     - Hyperparameter tuning for ANN
      - Model architecture and training
      - Model evaluation metrics
        
-   - **SVR_Model.ipynb**: Uses Support Vector Regression (SVR) to model the data, This notebook includes:
+   - **SVR_option_pricing.ipynb**: Uses Support Vector Regression (SVR) to model the data, This notebook includes:
      - Data scaling
+     - Hyperparameter tuning for SVR
      - Model training and evaluation metrics
        
    - **BSM_Model.ipynb**: Implements the Black-Scholes Model (BSM) for option pricing. This notebook includes:
