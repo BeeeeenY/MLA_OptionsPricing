@@ -58,7 +58,7 @@ The project files and directories are organised as follows:
      - Model architecture and training
      - Model evaluation metrics
        
-   - `SVR_option_pricing.ipynb`: Uses Support Vector Regression (SVR) to model the data, This notebook includes:
+   - `SVR_option_pricing.ipynb`: Uses Support Vector Regression (SVR) for option price prediction, This notebook includes:
      - Data scaling
      - Hyperparameter tuning for SVR
      - Model training and evaluation metrics
