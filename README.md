@@ -16,6 +16,7 @@ The project files and directories are organised as follows:
 ├── LSTM.ipynb
 ├── MLAANN.ipynb
 ├── README.md
+├── requirements.txt
 ├── SVR_option_pricing.ipynb
 ├── daily-treasury-rates.csv
 ├── data
@@ -87,4 +88,4 @@ To run this project locally, install the following libraries:
   
   ```bash
 
-  pip install pandas numpy matplotlib seaborn scikit-learn tensorflow keras
+  pip install -r requirements.txt
