@@ -8,8 +8,8 @@ The project files and directories are organised as follows:
 
 
 ``` bash
-├── ANN.ipynb
-├── ANN_old.ipynb
+├── ANN_SPX.ipynb
+├── ANN_SPXW.ipynb
 ├── Black_Scholes.ipynb
 ├── EDA
 │   └── spx_eda.ipynb
@@ -52,11 +52,17 @@ The project files and directories are organised as follows:
      
 5. **Models**
    
-   - `ANN_Model.ipynb`: Implements an Artificial Neural Network (ANN) for prediction, This notebook includes:
+   - `ANN_SPX.ipynb`: Implements an Artificial Neural Network (ANN) for prediction for SPX options, This notebook includes:
      - Data preprocessing and normalisation
      - Hyperparameter tuning for ANN
      - Model architecture and training
      - Model evaluation metrics
+
+  - `ANN_SPXW.ipynb`: Implements an Artificial Neural Network (ANN) for prediction for SPXW options, This notebook includes:
+    - Data preprocessing and normalisation
+    - Hyperparameter tuning for ANN
+    - Model architecture and training
+    - Model evaluation metrics
        
    - `SVR_option_pricing.ipynb`: Uses Support Vector Regression (SVR) for option price prediction, This notebook includes:
      - Data scaling
