@@ -59,11 +59,11 @@ The project files and directories are organised as follows:
      - Model architecture and training
      - Model evaluation metrics
 
-  - `ANN_SPXW.ipynb`: Implements an Artificial Neural Network (ANN) for prediction for SPXW options, This notebook includes:
-    - Data preprocessing and normalisation
-    - Hyperparameter tuning for ANN
-    - Model architecture and training
-    - Model evaluation metrics
+   - `ANN_SPXW.ipynb`: Implements an Artificial Neural Network (ANN) for prediction for SPXW options, This notebook includes:
+     - Data preprocessing and normalisation
+     - Hyperparameter tuning for ANN
+     - Model architecture and training
+     - Model evaluation metrics
        
    - `SVR_option_pricing.ipynb`: Uses Support Vector Regression (SVR) for option price prediction, This notebook includes:
      - Data scaling
