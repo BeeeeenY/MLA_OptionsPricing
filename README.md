@@ -1,4 +1,6 @@
 # MLA_OptionsPricing
+
+GitHub Repository: https://github.com/JoelSngZhenWei/MLA_OptionsPricing
  
 ## Project Overview
 This project analyses and predicts options market data using a range of machine learning and deep learning models. By leveraging historical options data, the project explores patterns through exploratory data analysis (EDA) and implements multiple models for prediction, including the Black-Scholes-Merton (BSM) model, Support Vector Regression (SVR), Artificial Neural Networks (ANN) and Long Short-Term Memory (LSTM) networks.
@@ -16,6 +18,7 @@ The project files and directories are organised as follows:
 ├── LSTM.ipynb
 ├── MLAANN.ipynb
 ├── README.md
+├── requirements.txt
 ├── SVR_option_pricing.ipynb
 ├── daily-treasury-rates.csv
 ├── data
@@ -58,11 +61,11 @@ The project files and directories are organised as follows:
      - Model architecture and training
      - Model evaluation metrics
 
-  - `ANN_SPXW.ipynb`: Implements an Artificial Neural Network (ANN) for prediction for SPXW options, This notebook includes:
-    - Data preprocessing and normalisation
-    - Hyperparameter tuning for ANN
-    - Model architecture and training
-    - Model evaluation metrics
+   - `ANN_SPXW.ipynb`: Implements an Artificial Neural Network (ANN) for prediction for SPXW options, This notebook includes:
+     - Data preprocessing and normalisation
+     - Hyperparameter tuning for ANN
+     - Model architecture and training
+     - Model evaluation metrics
        
    - `SVR_option_pricing.ipynb`: Uses Support Vector Regression (SVR) for option price prediction, This notebook includes:
      - Data scaling
@@ -87,4 +90,4 @@ To run this project locally, install the following libraries:
   
   ```bash
 
-  pip install pandas numpy matplotlib seaborn scikit-learn tensorflow keras
+  pip install -r requirements.txt
