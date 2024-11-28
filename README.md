@@ -1,4 +1,6 @@
 # MLA_OptionsPricing
+
+GitHub Repository: https://github.com/JoelSngZhenWei/MLA_OptionsPricing
  
 ## Project Overview
 This project analyses and predicts options market data using a range of machine learning and deep learning models. By leveraging historical options data, the project explores patterns through exploratory data analysis (EDA) and implements multiple models for prediction, including the Black-Scholes-Merton (BSM) model, Support Vector Regression (SVR), Artificial Neural Networks (ANN) and Long Short-Term Memory (LSTM) networks.
